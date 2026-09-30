@@ -1,10 +1,10 @@
 # AI Exposure for Philippine Careers (MCA)
 
-I built this analysis to attach AI-exposure measures to the job titles in My Career Advisor (MCA), a career guidance tool for Philippine students. It compares **theoretical** AI exposure (what AI could do in a job) with **observed** AI usage (what people actually use AI for). Then it sorts each occupation into an AI transition archetype.
+This is an exploratory analysis to attach AI-exposure measures to the job titles in My Career Advisor (MCA), a career guidance tool for Philippine students. It compares **theoretical** AI exposure (what AI could do in a job) with **observed** AI usage (what people actually use AI for). Then it sorts each occupation into an AI transition archetype. The MCA application is one use case and the framework could extend to other uses as well.
 
-## Status (September 2026)
+## Status (September 30 2026)
 
-- **Fixed:** the archetype step now uses C-AIOE as intended. The previous run accidentally used Human Beta because of a leftover loop variable.
+- **Fixed:** the archetype step now uses C-AIOE. The previous run used Human Beta. 
 - **Fixed:** the AI-Powered / Transition Pressure split now applies to Active Transformation only.
 - **Added:** comparison cells for the two open questions (which theoretical measure to use, and which usage threshold).
 - **Pending:** rerun notebooks 03 and 04. Until then, the printed outputs from Step 2c onward and the CSV in `data/output/` reflect the previous run.
@@ -52,4 +52,3 @@ Active Transformation jobs are further split by augmentation share: **AI-Powered
 - Eloundou, T., Manning, S., Mishkin, P., & Rock, D. (2023). GPTs are GPTs. https://arxiv.org/abs/2303.10130
 - Massenkoff, M., & McCrory, P. (2026). *Labor market impacts of AI: A new measure and early evidence*. Anthropic. https://www.anthropic.com/research/labor-market-impacts
 - Anthropic Economic Index. https://www.anthropic.com/economic-index
-- Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics*.
