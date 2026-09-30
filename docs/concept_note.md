@@ -1,10 +1,8 @@
 # Concept Note: AI Exposure and Usage for MCA Job Roles
 
-Angela Chen-Delantar · September 2026
-
 ## Purpose
 
-I am attaching AI-exposure measures to the job titles in My Career Advisor (MCA), a career guidance tool for Philippine students. The goal is to tell learners and schools, for each MCA career, how AI is likely to change the work and what that means for preparation.
+The first use case of the AI exposure vs AI usage comparison is applied to My Career Advisor. I am attaching AI-exposure measures to the job titles in My Career Advisor (MCA), a career guidance tool for Philippine students. The goal is to tell learners and schools, for each MCA career, how AI is likely to change the work and what that means for preparation.
 
 The analysis follows a funnel of three questions:
 
@@ -12,7 +10,7 @@ The analysis follows a funnel of three questions:
 2. **Where is generative AI actually being used?** Observed usage, from Anthropic's Observed Exposure measure.
 3. **When AI is used, what role does it play?** Automation versus augmentation, from the Anthropic Economic Index.
 
-At each step I test one link: does exposure turn into use, and does use mean automation?
+At each step we test one link: does exposure turn into use, and does use mean automation?
 
 **Repository:** code, outputs and data notes are in this repository (see the [README](../README.md)). This note asks for your view on two open design choices, set out in Questions 1 and 2 below.
 
