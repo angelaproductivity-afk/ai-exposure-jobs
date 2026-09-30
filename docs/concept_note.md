@@ -69,8 +69,6 @@ My current leaning is C-AIOE as the main measure, with Human Beta as a robustnes
 
 ## Question 2: Where should "high" and "low" be drawn?
 
-The current rule is not a plain 50th percentile, and the two axes use different rules. I would like to agree the rule before finalising the archetypes.
-
 **How the current rule works:**
 
 - **Theoretical axis:** high if the job is above the median C-AIOE percentile. This splits jobs 50/50.
@@ -86,20 +84,10 @@ The current rule is not a plain 50th percentile, and the two axes use different 
 | Median of all jobs | Same rule as the theory axis | With so many zeros, the median sits very low, so almost any use counts as "high" |
 | Above the mean (z > 0) | Standardised score, as the original concept note suggested | Sensitive to a few very high-usage jobs |
 
-For each rule the notebook reports the group sizes, the share of jobs rated high usage, the share that switch group compared with the current rule, and Cohen's Kappa against it.
-
-**How I propose to choose:**
-
-1. **Stability:** small changes to the cut-off should not move many jobs (Kappa above 0.6 against neighbouring rules).
-2. **Usable group sizes:** AI-Enabled Expansion had only 19 jobs in the previous run, which is too few to interpret.
-3. **Fit with the framework:** Latent Transformation should be larger than Active Transformation, since use lags capability.
-4. **Explainable to learners:** the rule should be simple enough to state in one sentence on the MCA site.
-
 **What I need to get help on:**
 
-- Is it defensible to treat zero usage separately and use different rules on the two axes, or should both axes use the same rule?
-- Should the threshold be picked for stability (the data decides), for theory fit (the framework decides), or both?
-- Would a middle band ("moderate") be more honest than a hard high/low split for jobs near the cut-off?
+- What is the best way to approach the 2x2 matrix? The current results don't seem to be generating meaningful insights?
+- Should the threshold be picked for stability (the data decides aka the group should not change drastically with sensitivity), for theory fit (the framework decides), or both...
 
 ## Limitations and next steps
 
