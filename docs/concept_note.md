@@ -61,7 +61,7 @@ My current leaning is C-AIOE as the main measure, with Human Beta as a robustnes
 
 **Why complementarity matters here.** Moving from AIOE to C-AIOE reorders many individual jobs even though the average does not change: the standard deviation of the rank change is 0.25 on a 0 to 1 scale. Within Legal, judges fall 0.72 and lawyers fall 0.46, while paralegals rise 0.12.
 
-**What I would like your view on:**
+**What I am looking to get support/feedback on:**
 
 - Is independence from the observed measure (C-AIOE) or comparability with Anthropic's own benchmark (Human Beta) more defensible for this purpose?
 - If C-AIOE is the main measure, is reporting Human Beta archetypes alongside it enough of a robustness check?
@@ -95,7 +95,7 @@ For each rule the notebook reports the group sizes, the share of jobs rated high
 3. **Fit with the framework:** Latent Transformation should be larger than Active Transformation, since use lags capability.
 4. **Explainable to learners:** the rule should be simple enough to state in one sentence on the MCA site.
 
-**What I would like your view on:**
+**What I need to get help on:**
 
 - Is it defensible to treat zero usage separately and use different rules on the two axes, or should both axes use the same rule?
 - Should the threshold be picked for stability (the data decides), for theory fit (the framework decides), or both?
@@ -105,20 +105,16 @@ For each rule the notebook reports the group sizes, the share of jobs rated high
 
 **Limitations:**
 
-- **US usage, Philippine jobs.** Observed usage comes from Claude conversations, mostly outside the Philippines. How the same job is done in the Philippines may differ.
 - **One AI product.** Claude usage may not reflect use of other AI tools, and it over-represents people who already use AI.
 - **Coverage gaps.** 26% of MCA jobs have no archetype, mostly in manufacturing, construction, health and agriculture.
-- **One snapshot.** The analysis uses a single Anthropic release (June 2026, data to May 2026), not a trend over time.
+- **One snapshot.** The analysis uses a single Anthropic release (June 2026, data to May 2026), not a trend over time. Hopefully this can get updated with new Anthropic releases every quarter.
 - **Archetypes are conversation starters.** They describe groups of tasks, not predictions about any one person's job.
 
 **Next steps:**
 
-- [ ] Rerun Stages 2 and 3 with the fixed code, and update all counts
 - [ ] Decide the theoretical measure (Question 1)
 - [ ] Decide the usage threshold (Question 2)
-- [ ] Build the Exposure-Usage Gap score from Stage 1
-- [ ] Write learner implications for each MCA career (Stage 4)
-- [ ] Revisit earlier Anthropic releases for a view over time, once the archetypes are settled
+- [ ] Write learner implications for each MCA career (Stage 4) or explore other use cases
 
 ## Key references
 
